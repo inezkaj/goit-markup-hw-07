@@ -1108,7 +1108,8 @@ ul {
   transition-timing-function: var(--trans-function);
 }
 
-.media-icons-footer li {
+.media-icons-footer li,
+.media-icons-mobile li {
   background: var(--iris);
   padding: 8px;
   width: 40px;
@@ -1117,7 +1118,9 @@ ul {
 }
 
 .media-icons-footer li:hover,
-.media-icons-footer li:focus {
+.media-icons-footer li:focus,
+.media-icons-mobile li:hover,
+.media-icons-mobile li:focus {
   background: #31d0aa;
   transition-duration: var(--trans-duration);
   transition-timing-function: var(--trans-function);
